@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 665a3f83970b5474a8aa3210e93183fc
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Tennis_Racket_handle
+    100002: Tennis_Racket_handle1
+    100004: Tennis_Racket_handle1_Cap_2
+    100006: Tennis_Racket_handle1_Rounding
+    100008: Tennis_Racket_handle1_Rounding_Cap_12
+    100010: Tennis_Racket_handle_Cap
+    100012: Tennis_Racket_HEAD_Cube1
+    100014: Tennis_Racket_HEAD_Cube1_MeshPart0
+    100016: Tennis_Racket_HEAD_Cube1_MeshPart1
+    100018: Tennis_Racket_horz_strings
+    100020: Tennis_Racket_horz_strings_Cap_1
+    100022: Tennis_Racket_horz_strings_Cap_22
+    100024: Tennis_Racket_Horz_Tubes_Tube
+    100026: Tennis_Racket_Horz_Tubes_Tube_101
+    100028: Tennis_Racket_Horz_Tubes_Tube_11
+    100030: Tennis_Racket_Horz_Tubes_Tube_111
+    100032: Tennis_Racket_Horz_Tubes_Tube_12
+    100034: Tennis_Racket_Horz_Tubes_Tube_13
+    100036: Tennis_Racket_Horz_Tubes_Tube_141
+    100038: Tennis_Racket_Horz_Tubes_Tube_151
+    100040: Tennis_Racket_Horz_Tubes_Tube_16
+    100042: Tennis_Racket_Horz_Tubes_Tube_171
+    100044: Tennis_Racket_Horz_Tubes_Tube_18
+    100046: Tennis_Racket_Horz_Tubes_Tube_19
+    100048: Tennis_Racket_Horz_Tubes_Tube_20
+    100050: Tennis_Racket_Horz_Tubes_Tube_21
+    100052: Tennis_Racket_Horz_Tubes_Tube_22
+    100054: Tennis_Racket_Horz_Tubes_Tube_23
+    100056: Tennis_Racket_Horz_Tubes_Tube_24
+    100058: Tennis_Racket_Horz_Tubes_Tube_25
+    100060: Tennis_Racket_Horz_Tubes_Tube_261
+    100062: Tennis_Racket_Horz_Tubes_Tube_271
+    100064: Tennis_Racket_Horz_Tubes_Tube_281
+    100066: Tennis_Racket_Horz_Tubes_Tube_291
+    100068: Tennis_Racket_Horz_Tubes_Tube_3
+    100070: Tennis_Racket_Horz_Tubes_Tube_301
+    100072: Tennis_Racket_Horz_Tubes_Tube_311
+    100074: Tennis_Racket_Horz_Tubes_Tube_32
+    100076: Tennis_Racket_Horz_Tubes_Tube_33
+    100078: Tennis_Racket_Horz_Tubes_Tube_34
+    100080: Tennis_Racket_Horz_Tubes_Tube_35
+    100082: Tennis_Racket_Horz_Tubes_Tube_36
+    100084: Tennis_Racket_Horz_Tubes_Tube_37
+    100086: Tennis_Racket_Horz_Tubes_Tube_41
+    100088: Tennis_Racket_Horz_Tubes_Tube_5
+    100090: Tennis_Racket_Horz_Tubes_Tube_61
+    100092: Tennis_Racket_Horz_Tubes_Tube_71
+    100094: Tennis_Racket_Horz_Tubes_Tube_81
+    100096: Tennis_Racket_Horz_Tubes_Tube_91
+    100098: Tennis_Racket_Null_Tube1
+    100100: Tennis_Racket_Null_Tube_1
+    100102: Tennis_Racket_Null_Tube_10
+    100104: Tennis_Racket_Null_Tube_11
+    100106: Tennis_Racket_Null_Tube_121
+    100108: Tennis_Racket_Null_Tube_131
+    100110: Tennis_Racket_Null_Tube_14
+    100112: Tennis_Racket_Null_Tube_15
+    100114: Tennis_Racket_Null_Tube_161
+    100116: Tennis_Racket_Null_Tube_17
+    100118: Tennis_Racket_Null_Tube_181
+    100120: Tennis_Racket_Null_Tube_191
+    100122: Tennis_Racket_Null_Tube_2
+    100124: Tennis_Racket_Null_Tube_201
+    100126: Tennis_Racket_Null_Tube_211
+    100128: Tennis_Racket_Null_Tube_221
+    100130: Tennis_Racket_Null_Tube_231
+    100132: Tennis_Racket_Null_Tube_241
+    100134: Tennis_Racket_Null_Tube_251
+    100136: Tennis_Racket_Null_Tube_26
+    100138: Tennis_Racket_Null_Tube_27
+    100140: Tennis_Racket_Null_Tube_28
+    100142: Tennis_Racket_Null_Tube_29
+    100144: Tennis_Racket_Null_Tube_30
+    100146: Tennis_Racket_Null_Tube_31
+    100148: Tennis_Racket_Null_Tube_4
+    100150: Tennis_Racket_Null_Tube_51
+    100152: Tennis_Racket_Null_Tube_6
+    100154: Tennis_Racket_Null_Tube_7
+    100156: Tennis_Racket_Null_Tube_8
+    100158: Tennis_Racket_Null_Tube_9
+    100160: Tennis_Racket_Vert_strings
+    100162: Tennis_Racket_Vert_strings_Cap_11
+    100164: Tennis_Racket_Vert_strings_Cap_21
+    100166: Tennis_Racket_wrap_Cube
+    100168: Tennis_Racket_wrap_Cube_MeshPart0
+    100170: Tennis_Racket_wrap_Cube_MeshPart1
+    100172: //RootNode
+    400000: Tennis_Racket_handle
+    400002: Tennis_Racket_handle1
+    400004: Tennis_Racket_handle1_Cap_2
+    400006: Tennis_Racket_handle1_Rounding
+    400008: Tennis_Racket_handle1_Rounding_Cap_12
+    400010: Tennis_Racket_handle_Cap
+    400012: Tennis_Racket_HEAD_Cube1
+    400014: Tennis_Racket_HEAD_Cube1_MeshPart0
+    400016: Tennis_Racket_HEAD_Cube1_MeshPart1
+    400018: Tennis_Racket_horz_strings
+    400020: Tennis_Racket_horz_strings_Cap_1
+    400022: Tennis_Racket_horz_strings_Cap_22
+    400024: Tennis_Racket_Horz_Tubes_Tube
+    400026: Tennis_Racket_Horz_Tubes_Tube_101
+    400028: Tennis_Racket_Horz_Tubes_Tube_11
+    400030: Tennis_Racket_Horz_Tubes_Tube_111
+    400032: Tennis_Racket_Horz_Tubes_Tube_12
+    400034: Tennis_Racket_Horz_Tubes_Tube_13
+    400036: Tennis_Racket_Horz_Tubes_Tube_141
+    400038: Tennis_Racket_Horz_Tubes_Tube_151
+    400040: Tennis_Racket_Horz_Tubes_Tube_16
+    400042: Tennis_Racket_Horz_Tubes_Tube_171
+    400044: Tennis_Racket_Horz_Tubes_Tube_18
+    400046: Tennis_Racket_Horz_Tubes_Tube_19
+    400048: Tennis_Racket_Horz_Tubes_Tube_20
+    400050: Tennis_Racket_Horz_Tubes_Tube_21
+    400052: Tennis_Racket_Horz_Tubes_Tube_22
+    400054: Tennis_Racket_Horz_Tubes_Tube_23
+    400056: Tennis_Racket_Horz_Tubes_Tube_24
+    400058: Tennis_Racket_Horz_Tubes_Tube_25
+    400060: Tennis_Racket_Horz_Tubes_Tube_261
+    400062: Tennis_Racket_Horz_Tubes_Tube_271
+    400064: Tennis_Racket_Horz_Tubes_Tube_281
+    400066: Tennis_Racket_Horz_Tubes_Tube_291
+    400068: Tennis_Racket_Horz_Tubes_Tube_3
+    400070: Tennis_Racket_Horz_Tubes_Tube_301
+    400072: Tennis_Racket_Horz_Tubes_Tube_311
+    400074: Tennis_Racket_Horz_Tubes_Tube_32
+    400076: Tennis_Racket_Horz_Tubes_Tube_33
+    400078: Tennis_Racket_Horz_Tubes_Tube_34
+    400080: Tennis_Racket_Horz_Tubes_Tube_35
+    400082: Tennis_Racket_Horz_Tubes_Tube_36
+    400084: Tennis_Racket_Horz_Tubes_Tube_37
+    400086: Tennis_Racket_Horz_Tubes_Tube_41
+    400088: Tennis_Racket_Horz_Tubes_Tube_5
+    400090: Tennis_Racket_Horz_Tubes_Tube_61
+    400092: Tennis_Racket_Horz_Tubes_Tube_71
+    400094: Tennis_Racket_Horz_Tubes_Tube_81
+    400096: Tennis_Racket_Horz_Tubes_Tube_91
+    400098: Tennis_Racket_Null_Tube1
+    400100: Tennis_Racket_Null_Tube_1
+    400102: Tennis_Racket_Null_Tube_10
+    400104: Tennis_Racket_Null_Tube_11
+    400106: Tennis_Racket_Null_Tube_121
+    400108: Tennis_Racket_Null_Tube_131
+    400110: Tennis_Racket_Null_Tube_14
+    400112: Tennis_Racket_Null_Tube_15
+    400114: Tennis_Racket_Null_Tube_161
+    400116: Tennis_Racket_Null_Tube_17
+    400118: Tennis_Racket_Null_Tube_181
+    400120: Tennis_Racket_Null_Tube_191
+    400122: Tennis_Racket_Null_Tube_2
+    400124: Tennis_Racket_Null_Tube_201
+    400126: Tennis_Racket_Null_Tube_211
+    400128: Tennis_Racket_Null_Tube_221
+    400130: Tennis_Racket_Null_Tube_231
+    400132: Tennis_Racket_Null_Tube_241
+    400134: Tennis_Racket_Null_Tube_251
+    400136: Tennis_Racket_Null_Tube_26
+    400138: Tennis_Racket_Null_Tube_27
+    400140: Tennis_Racket_Null_Tube_28
+    400142: Tennis_Racket_Null_Tube_29
+    400144: Tennis_Racket_Null_Tube_30
+    400146: Tennis_Racket_Null_Tube_31
+    400148: Tennis_Racket_Null_Tube_4
+    400150: Tennis_Racket_Null_Tube_51
+    400152: Tennis_Racket_Null_Tube_6
+    400154: Tennis_Racket_Null_Tube_7
+    400156: Tennis_Racket_Null_Tube_8
+    400158: Tennis_Racket_Null_Tube_9
+    400160: Tennis_Racket_Vert_strings
+    400162: Tennis_Racket_Vert_strings_Cap_11
+    400164: Tennis_Racket_Vert_strings_Cap_21
+    400166: Tennis_Racket_wrap_Cube
+    400168: Tennis_Racket_wrap_Cube_MeshPart0
+    400170: Tennis_Racket_wrap_Cube_MeshPart1
+    400172: //RootNode
+    2300000: Tennis_Racket_handle
+    2300002: Tennis_Racket_handle1
+    2300004: Tennis_Racket_handle1_Cap_2
+    2300006: Tennis_Racket_handle1_Rounding
+    2300008: Tennis_Racket_handle1_Rounding_Cap_12
+    2300010: Tennis_Racket_handle_Cap
+    2300012: Tennis_Racket_HEAD_Cube1_MeshPart0
+    2300014: Tennis_Racket_HEAD_Cube1_MeshPart1
+    2300016: Tennis_Racket_horz_strings
+    2300018: Tennis_Racket_horz_strings_Cap_1
+    2300020: Tennis_Racket_horz_strings_Cap_22
+    2300022: Tennis_Racket_Horz_Tubes_Tube
+    2300024: Tennis_Racket_Horz_Tubes_Tube_101
+    2300026: Tennis_Racket_Horz_Tubes_Tube_11
+    2300028: Tennis_Racket_Horz_Tubes_Tube_111
+    2300030: Tennis_Racket_Horz_Tubes_Tube_12
+    2300032: Tennis_Racket_Horz_Tubes_Tube_13
+    2300034: Tennis_Racket_Horz_Tubes_Tube_141
+    2300036: Tennis_Racket_Horz_Tubes_Tube_151
+    2300038: Tennis_Racket_Horz_Tubes_Tube_16
+    2300040: Tennis_Racket_Horz_Tubes_Tube_171
+    2300042: Tennis_Racket_Horz_Tubes_Tube_18
+    2300044: Tennis_Racket_Horz_Tubes_Tube_19
+    2300046: Tennis_Racket_Horz_Tubes_Tube_20
+    2300048: Tennis_Racket_Horz_Tubes_Tube_21
+    2300050: Tennis_Racket_Horz_Tubes_Tube_22
+    2300052: Tennis_Racket_Horz_Tubes_Tube_23
+    2300054: Tennis_Racket_Horz_Tubes_Tube_24
+    2300056: Tennis_Racket_Horz_Tubes_Tube_25
+    2300058: Tennis_Racket_Horz_Tubes_Tube_261
+    2300060: Tennis_Racket_Horz_Tubes_Tube_271
+    2300062: Tennis_Racket_Horz_Tubes_Tube_281
+    2300064: Tennis_Racket_Horz_Tubes_Tube_291
+    2300066: Tennis_Racket_Horz_Tubes_Tube_3
+    2300068: Tennis_Racket_Horz_Tubes_Tube_301
+    2300070: Tennis_Racket_Horz_Tubes_Tube_311
+    2300072: Tennis_Racket_Horz_Tubes_Tube_32
+    2300074: Tennis_Racket_Horz_Tubes_Tube_33
+    2300076: Tennis_Racket_Horz_Tubes_Tube_34
+    2300078: Tennis_Racket_Horz_Tubes_Tube_35
+    2300080: Tennis_Racket_Horz_Tubes_Tube_36
+    2300082: Tennis_Racket_Horz_Tubes_Tube_37
+    2300084: Tennis_Racket_Horz_Tubes_Tube_41
+    2300086: Tennis_Racket_Horz_Tubes_Tube_5
+    2300088: Tennis_Racket_Horz_Tubes_Tube_61
+    2300090: Tennis_Racket_Horz_Tubes_Tube_71
+    2300092: Tennis_Racket_Horz_Tubes_Tube_81
+    2300094: Tennis_Racket_Horz_Tubes_Tube_91
+    2300096: Tennis_Racket_Null_Tube1
+    2300098: Tennis_Racket_Null_Tube_1
+    2300100: Tennis_Racket_Null_Tube_10
+    2300102: Tennis_Racket_Null_Tube_11
+    2300104: Tennis_Racket_Null_Tube_121
+    2300106: Tennis_Racket_Null_Tube_131
+    2300108: Tennis_Racket_Null_Tube_14
+    2300110: Tennis_Racket_Null_Tube_15
+    2300112: Tennis_Racket_Null_Tube_161
+    2300114: Tennis_Racket_Null_Tube_17
+    2300116: Tennis_Racket_Null_Tube_181
+    2300118: Tennis_Racket_Null_Tube_191
+    2300120: Tennis_Racket_Null_Tube_2
+    2300122: Tennis_Racket_Null_Tube_201
+    2300124: Tennis_Racket_Null_Tube_211
+    2300126: Tennis_Racket_Null_Tube_221
+    2300128: Tennis_Racket_Null_Tube_231
+    2300130: Tennis_Racket_Null_Tube_241
+    2300132: Tennis_Racket_Null_Tube_251
+    2300134: Tennis_Racket_Null_Tube_26
+    2300136: Tennis_Racket_Null_Tube_27
+    2300138: Tennis_Racket_Null_Tube_28
+    2300140: Tennis_Racket_Null_Tube_29
+    2300142: Tennis_Racket_Null_Tube_30
+    2300144: Tennis_Racket_Null_Tube_31
+    2300146: Tennis_Racket_Null_Tube_4
+    2300148: Tennis_Racket_Null_Tube_51
+    2300150: Tennis_Racket_Null_Tube_6
+    2300152: Tennis_Racket_Null_Tube_7
+    2300154: Tennis_Racket_Null_Tube_8
+    2300156: Tennis_Racket_Null_Tube_9
+    2300158: Tennis_Racket_Vert_strings
+    2300160: Tennis_Racket_Vert_strings_Cap_11
+    2300162: Tennis_Racket_Vert_strings_Cap_21
+    2300164: Tennis_Racket_wrap_Cube_MeshPart0
+    2300166: Tennis_Racket_wrap_Cube_MeshPart1
+    3300000: Tennis_Racket_handle
+    3300002: Tennis_Racket_handle1
+    3300004: Tennis_Racket_handle1_Cap_2
+    3300006: Tennis_Racket_handle1_Rounding
+    3300008: Tennis_Racket_handle1_Rounding_Cap_12
+    3300010: Tennis_Racket_handle_Cap
+    3300012: Tennis_Racket_HEAD_Cube1_MeshPart0
+    3300014: Tennis_Racket_HEAD_Cube1_MeshPart1
+    3300016: Tennis_Racket_horz_strings
+    3300018: Tennis_Racket_horz_strings_Cap_1
+    3300020: Tennis_Racket_horz_strings_Cap_22
+    3300022: Tennis_Racket_Horz_Tubes_Tube
+    3300024: Tennis_Racket_Horz_Tubes_Tube_101
+    3300026: Tennis_Racket_Horz_Tubes_Tube_11
+    3300028: Tennis_Racket_Horz_Tubes_Tube_111
+    3300030: Tennis_Racket_Horz_Tubes_Tube_12
+    3300032: Tennis_Racket_Horz_Tubes_Tube_13
+    3300034: Tennis_Racket_Horz_Tubes_Tube_141
+    3300036: Tennis_Racket_Horz_Tubes_Tube_151
+    3300038: Tennis_Racket_Horz_Tubes_Tube_16
+    3300040: Tennis_Racket_Horz_Tubes_Tube_171
+    3300042: Tennis_Racket_Horz_Tubes_Tube_18
+    3300044: Tennis_Racket_Horz_Tubes_Tube_19
+    3300046: Tennis_Racket_Horz_Tubes_Tube_20
+    3300048: Tennis_Racket_Horz_Tubes_Tube_21
+    3300050: Tennis_Racket_Horz_Tubes_Tube_22
+    3300052: Tennis_Racket_Horz_Tubes_Tube_23
+    3300054: Tennis_Racket_Horz_Tubes_Tube_24
+    3300056: Tennis_Racket_Horz_Tubes_Tube_25
+    3300058: Tennis_Racket_Horz_Tubes_Tube_261
+    3300060: Tennis_Racket_Horz_Tubes_Tube_271
+    3300062: Tennis_Racket_Horz_Tubes_Tube_281
+    3300064: Tennis_Racket_Horz_Tubes_Tube_291
+    3300066: Tennis_Racket_Horz_Tubes_Tube_3
+    3300068: Tennis_Racket_Horz_Tubes_Tube_301
+    3300070: Tennis_Racket_Horz_Tubes_Tube_311
+    3300072: Tennis_Racket_Horz_Tubes_Tube_32
+    3300074: Tennis_Racket_Horz_Tubes_Tube_33
+    3300076: Tennis_Racket_Horz_Tubes_Tube_34
+    3300078: Tennis_Racket_Horz_Tubes_Tube_35
+    3300080: Tennis_Racket_Horz_Tubes_Tube_36
+    3300082: Tennis_Racket_Horz_Tubes_Tube_37
+    3300084: Tennis_Racket_Horz_Tubes_Tube_41
+    3300086: Tennis_Racket_Horz_Tubes_Tube_5
+    3300088: Tennis_Racket_Horz_Tubes_Tube_61
+    3300090: Tennis_Racket_Horz_Tubes_Tube_71
+    3300092: Tennis_Racket_Horz_Tubes_Tube_81
+    3300094: Tennis_Racket_Horz_Tubes_Tube_91
+    3300096: Tennis_Racket_Null_Tube1
+    3300098: Tennis_Racket_Null_Tube_1
+    3300100: Tennis_Racket_Null_Tube_10
+    3300102: Tennis_Racket_Null_Tube_11
+    3300104: Tennis_Racket_Null_Tube_121
+    3300106: Tennis_Racket_Null_Tube_131
+    3300108: Tennis_Racket_Null_Tube_14
+    3300110: Tennis_Racket_Null_Tube_15
+    3300112: Tennis_Racket_Null_Tube_161
+    3300114: Tennis_Racket_Null_Tube_17
+    3300116: Tennis_Racket_Null_Tube_181
+    3300118: Tennis_Racket_Null_Tube_191
+    3300120: Tennis_Racket_Null_Tube_2
+    3300122: Tennis_Racket_Null_Tube_201
+    3300124: Tennis_Racket_Null_Tube_211
+    3300126: Tennis_Racket_Null_Tube_221
+    3300128: Tennis_Racket_Null_Tube_231
+    3300130: Tennis_Racket_Null_Tube_241
+    3300132: Tennis_Racket_Null_Tube_251
+    3300134: Tennis_Racket_Null_Tube_26
+    3300136: Tennis_Racket_Null_Tube_27
+    3300138: Tennis_Racket_Null_Tube_28
+    3300140: Tennis_Racket_Null_Tube_29
+    3300142: Tennis_Racket_Null_Tube_30
+    3300144: Tennis_Racket_Null_Tube_31
+    3300146: Tennis_Racket_Null_Tube_4
+    3300148: Tennis_Racket_Null_Tube_51
+    3300150: Tennis_Racket_Null_Tube_6
+    3300152: Tennis_Racket_Null_Tube_7
+    3300154: Tennis_Racket_Null_Tube_8
+    3300156: Tennis_Racket_Null_Tube_9
+    3300158: Tennis_Racket_Vert_strings
+    3300160: Tennis_Racket_Vert_strings_Cap_11
+    3300162: Tennis_Racket_Vert_strings_Cap_21
+    3300164: Tennis_Racket_wrap_Cube_MeshPart0
+    3300166: Tennis_Racket_wrap_Cube_MeshPart1
+    4300000: Tennis_Racket_handle
+    4300002: Tennis_Racket_handle1
+    4300004: Tennis_Racket_handle1_Cap_2
+    4300006: Tennis_Racket_handle1_Rounding
+    4300008: Tennis_Racket_handle1_Rounding_Cap_12
+    4300010: Tennis_Racket_handle_Cap
+    4300012: Tennis_Racket_HEAD_Cube1_MeshPart0
+    4300014: Tennis_Racket_HEAD_Cube1_MeshPart1
+    4300016: Tennis_Racket_horz_strings
+    4300018: Tennis_Racket_horz_strings_Cap_1
+    4300020: Tennis_Racket_horz_strings_Cap_22
+    4300022: Tennis_Racket_Horz_Tubes_Tube
+    4300024: Tennis_Racket_Horz_Tubes_Tube_101
+    4300026: Tennis_Racket_Horz_Tubes_Tube_11
+    4300028: Tennis_Racket_Horz_Tubes_Tube_111
+    4300030: Tennis_Racket_Horz_Tubes_Tube_12
+    4300032: Tennis_Racket_Horz_Tubes_Tube_13
+    4300034: Tennis_Racket_Horz_Tubes_Tube_141
+    4300036: Tennis_Racket_Horz_Tubes_Tube_151
+    4300038: Tennis_Racket_Horz_Tubes_Tube_16
+    4300040: Tennis_Racket_Horz_Tubes_Tube_171
+    4300042: Tennis_Racket_Horz_Tubes_Tube_18
+    4300044: Tennis_Racket_Horz_Tubes_Tube_19
+    4300046: Tennis_Racket_Horz_Tubes_Tube_20
+    4300048: Tennis_Racket_Horz_Tubes_Tube_21
+    4300050: Tennis_Racket_Horz_Tubes_Tube_22
+    4300052: Tennis_Racket_Horz_Tubes_Tube_23
+    4300054: Tennis_Racket_Horz_Tubes_Tube_24
+    4300056: Tennis_Racket_Horz_Tubes_Tube_25
+    4300058: Tennis_Racket_Horz_Tubes_Tube_261
+    4300060: Tennis_Racket_Horz_Tubes_Tube_271
+    4300062: Tennis_Racket_Horz_Tubes_Tube_281
+    4300064: Tennis_Racket_Horz_Tubes_Tube_291
+    4300066: Tennis_Racket_Horz_Tubes_Tube_3
+    4300068: Tennis_Racket_Horz_Tubes_Tube_301
+    4300070: Tennis_Racket_Horz_Tubes_Tube_311
+    4300072: Tennis_Racket_Horz_Tubes_Tube_32
+    4300074: Tennis_Racket_Horz_Tubes_Tube_33
+    4300076: Tennis_Racket_Horz_Tubes_Tube_34
+    4300078: Tennis_Racket_Horz_Tubes_Tube_35
+    4300080: Tennis_Racket_Horz_Tubes_Tube_36
+    4300082: Tennis_Racket_Horz_Tubes_Tube_37
+    4300084: Tennis_Racket_Horz_Tubes_Tube_41
+    4300086: Tennis_Racket_Horz_Tubes_Tube_5
+    4300088: Tennis_Racket_Horz_Tubes_Tube_61
+    4300090: Tennis_Racket_Horz_Tubes_Tube_71
+    4300092: Tennis_Racket_Horz_Tubes_Tube_81
+    4300094: Tennis_Racket_Horz_Tubes_Tube_91
+    4300096: Tennis_Racket_Null_Tube1
+    4300098: Tennis_Racket_Null_Tube_1
+    4300100: Tennis_Racket_Null_Tube_10
+    4300102: Tennis_Racket_Null_Tube_11
+    4300104: Tennis_Racket_Null_Tube_121
+    4300106: Tennis_Racket_Null_Tube_131
+    4300108: Tennis_Racket_Null_Tube_14
+    4300110: Tennis_Racket_Null_Tube_15
+    4300112: Tennis_Racket_Null_Tube_161
+    4300114: Tennis_Racket_Null_Tube_17
+    4300116: Tennis_Racket_Null_Tube_181
+    4300118: Tennis_Racket_Null_Tube_191
+    4300120: Tennis_Racket_Null_Tube_2
+    4300122: Tennis_Racket_Null_Tube_201
+    4300124: Tennis_Racket_Null_Tube_211
+    4300126: Tennis_Racket_Null_Tube_221
+    4300128: Tennis_Racket_Null_Tube_231
+    4300130: Tennis_Racket_Null_Tube_241
+    4300132: Tennis_Racket_Null_Tube_251
+    4300134: Tennis_Racket_Null_Tube_26
+    4300136: Tennis_Racket_Null_Tube_27
+    4300138: Tennis_Racket_Null_Tube_28
+    4300140: Tennis_Racket_Null_Tube_29
+    4300142: Tennis_Racket_Null_Tube_30
+    4300144: Tennis_Racket_Null_Tube_31
+    4300146: Tennis_Racket_Null_Tube_4
+    4300148: Tennis_Racket_Null_Tube_51
+    4300150: Tennis_Racket_Null_Tube_6
+    4300152: Tennis_Racket_Null_Tube_7
+    4300154: Tennis_Racket_Null_Tube_8
+    4300156: Tennis_Racket_Null_Tube_9
+    4300158: Tennis_Racket_Vert_strings
+    4300160: Tennis_Racket_Vert_strings_Cap_11
+    4300162: Tennis_Racket_Vert_strings_Cap_21
+    4300164: Tennis_Racket_wrap_Cube_MeshPart0
+    4300166: Tennis_Racket_wrap_Cube_MeshPart1
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_HEAD_Cube1Mat
+    second: {fileID: 2100000, guid: b0eeaf39217a14764a698f3e5b796be0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_TubeMat
+    second: {fileID: 2100000, guid: 8d2520c82cb3341d3be9b8509ce2ff5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_101Mat
+    second: {fileID: 2100000, guid: 9d79768688fb149498c3307ee79d47e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_111Mat
+    second: {fileID: 2100000, guid: 7e1a393046c9746aab5389d1174492eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_11Mat
+    second: {fileID: 2100000, guid: 4c8cc15b1902d4bee8d29bb5e5ca7421, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_12Mat
+    second: {fileID: 2100000, guid: 3be62a43dab5749d8aeb7415f81f9e77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_13Mat
+    second: {fileID: 2100000, guid: 7047758071b46459983da4647ed3a513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_141Mat
+    second: {fileID: 2100000, guid: ba4170e6de08e4285b4de64f814a4d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_151Mat
+    second: {fileID: 2100000, guid: 33cfefbaacbaa4a6bb83ace45b1d2827, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_16Mat
+    second: {fileID: 2100000, guid: 3869dafe6811548168539cd50aab53c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_171Mat
+    second: {fileID: 2100000, guid: d066425016bf04fa8a66dda34cef5bdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_18Mat
+    second: {fileID: 2100000, guid: 0fb88787ab73f4825af06a071c741bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_19Mat
+    second: {fileID: 2100000, guid: 0e5b031bd0c3a4e1ca41001f7ff91b6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_20Mat
+    second: {fileID: 2100000, guid: fa14e1d97aadc47c39520e9422948548, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_21Mat
+    second: {fileID: 2100000, guid: 7be33c4f00a2648678981f1017d1d793, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_22Mat
+    second: {fileID: 2100000, guid: 23d9bfd18c9234f7191ef243fa0a22ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_23Mat
+    second: {fileID: 2100000, guid: 1b8955a24235f46c88d1512097ceee55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_24Mat
+    second: {fileID: 2100000, guid: aa3c917e9f9a04584ab3cfac97266190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_25Mat
+    second: {fileID: 2100000, guid: 1913e5d49eda242539f59a379f0f9e79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_261Mat
+    second: {fileID: 2100000, guid: 720b0a862697e43869dcdb589a6d8682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_271Mat
+    second: {fileID: 2100000, guid: b26ac034a24df44039ba9d29562f4850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_281Mat
+    second: {fileID: 2100000, guid: de9a8f9990e974b97ac83e8468dd250a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_291Mat
+    second: {fileID: 2100000, guid: 9082da41946f6412ab1decea983891ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_301Mat
+    second: {fileID: 2100000, guid: cde24ff98fdd04ce085e186072d69226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_311Mat
+    second: {fileID: 2100000, guid: c8dbe2456d9ad4e4d9861c6645d7b27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_32Mat
+    second: {fileID: 2100000, guid: 214162d04d28641b1a150307768b0bf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_33Mat
+    second: {fileID: 2100000, guid: 59283798ca45645f5914b6418acbea7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_34Mat
+    second: {fileID: 2100000, guid: 2a61615fbc7504ec192b545e88135a90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_35Mat
+    second: {fileID: 2100000, guid: e28f2420d1fb640689ea07d445dfba14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_36Mat
+    second: {fileID: 2100000, guid: 34490137212224ddda941c3fb5038495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_37Mat
+    second: {fileID: 2100000, guid: 3fb7e34bdc6fd416e952dea9341ca2ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_3Mat
+    second: {fileID: 2100000, guid: 8a8dc29c6a27f416a889e7430376f4b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_41Mat
+    second: {fileID: 2100000, guid: 9ff5114ba42ea4e37a8d8e217ac234d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_5Mat
+    second: {fileID: 2100000, guid: 375b99a3e5e044433be75540c69c637a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_61Mat
+    second: {fileID: 2100000, guid: 406b0e3b8780a4d63887f0b4ce9bc4cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_71Mat
+    second: {fileID: 2100000, guid: 8aa7aa9ca2fb04aeb91cff06fc6227ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_81Mat
+    second: {fileID: 2100000, guid: 5d1ed87c6571b4a2d8a92f5b3e93f545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Horz_Tubes_Tube_91Mat
+    second: {fileID: 2100000, guid: 6b09512d0c99b44e3b8ad85cbc076cd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube1Mat
+    second: {fileID: 2100000, guid: bfa6902b14a0d49d1a905c1827ff423f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_10Mat
+    second: {fileID: 2100000, guid: 10275be80899f41c9a0cbe791be31248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_11Mat
+    second: {fileID: 2100000, guid: 1b6b5bedffd604d8789954dc3b0b6a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_121Mat
+    second: {fileID: 2100000, guid: 2161f1c0434914a07ba09f2ff1439743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_131Mat
+    second: {fileID: 2100000, guid: ac41833cc12f84292b5f48b59ada06fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_14Mat
+    second: {fileID: 2100000, guid: b3d2937fa5da64a4c95050a83c0f702f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_15Mat
+    second: {fileID: 2100000, guid: ca257faba37fa4c83af1e4c95e0a4adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_161Mat
+    second: {fileID: 2100000, guid: ce4bf932af0c14cddacf18a4eb9a2099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_17Mat
+    second: {fileID: 2100000, guid: 071379bc3ff4546c289e3d7566476476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_181Mat
+    second: {fileID: 2100000, guid: 510d00007f9794f5194565118ba498a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_191Mat
+    second: {fileID: 2100000, guid: 778ecfaa4d9e245e3b32fb3965f77200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_1Mat
+    second: {fileID: 2100000, guid: b3f3737f19a8847118934b63d7c95a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_201Mat
+    second: {fileID: 2100000, guid: ba6328c59b8304d35a9509f8e8010b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_211Mat
+    second: {fileID: 2100000, guid: db84d01bebf9d4a439fc16d15da90001, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_221Mat
+    second: {fileID: 2100000, guid: 4bcd46fe1fd3e4286b2eeb35f4a5ddb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_231Mat
+    second: {fileID: 2100000, guid: 0dd0781113a454344be6aed92f043520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_241Mat
+    second: {fileID: 2100000, guid: 75dfdd9344f354e5e87e801304320ef4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_251Mat
+    second: {fileID: 2100000, guid: 467fcf33916a04b3fa67010402ed9d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_26Mat
+    second: {fileID: 2100000, guid: 78a4e95a0374940938f805453efb1493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_27Mat
+    second: {fileID: 2100000, guid: 708cbda412a2b49c0a2705929be6ce39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_28Mat
+    second: {fileID: 2100000, guid: b51320dc1dd7d4e0a8bb010d9b74511c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_29Mat
+    second: {fileID: 2100000, guid: b668e634aeca0412a82dc8887886d78a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_2Mat
+    second: {fileID: 2100000, guid: 705316d0bd39e4c1ea01ec120e3b373a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_30Mat
+    second: {fileID: 2100000, guid: 45e3bacfc32b64acc8bba064bc9f5cec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_31Mat
+    second: {fileID: 2100000, guid: 5a475b4910d4242f69d86a80d6670d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_4Mat
+    second: {fileID: 2100000, guid: 9d8355d35434e4e4f914d42a780c4b14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_51Mat
+    second: {fileID: 2100000, guid: 18fdfbc99154745d3b4931bc31cfe3a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_6Mat
+    second: {fileID: 2100000, guid: 7c9835db229854788ab53ef84774135f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_7Mat
+    second: {fileID: 2100000, guid: 9fae439ba0e874b4da47932988b3dc6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_8Mat
+    second: {fileID: 2100000, guid: ac4fffb3d309d46029a66021be9d7dbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Null_Tube_9Mat
+    second: {fileID: 2100000, guid: 46ef4c33ba8c247c7bbf886c2b6e7719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Vert_stringsMat
+    second: {fileID: 2100000, guid: abaec730722e449b4b7804dcb5c3f1cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Vert_strings_Cap_11Mat
+    second: {fileID: 2100000, guid: 91acdd82170da44aa81b57868e735bd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_Vert_strings_Cap_21Mat
+    second: {fileID: 2100000, guid: cdd30216f22e7412393fc357abef17cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_handle1Mat
+    second: {fileID: 2100000, guid: 29a37158f14284923aeb61f9b543e83c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_handle1_Cap_2Mat
+    second: {fileID: 2100000, guid: 0d13066010d9f49de90d59a335265e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_handle1_RoundingMat
+    second: {fileID: 2100000, guid: 23965d1f7bb3341c982270454ca3e31b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_handle1_Rounding_Cap_12Mat
+    second: {fileID: 2100000, guid: f934433ed946a4e47b5eaca46586d605, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_handleMat
+    second: {fileID: 2100000, guid: 0eb032a0ddf7b4878a18413a21f049d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_handle_CapMat
+    second: {fileID: 2100000, guid: 48b06882d622d42ec8f3dd59d9a87d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_horz_stringsMat
+    second: {fileID: 2100000, guid: 879b55f7f36044f4db2817c7c264c4c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_horz_strings_Cap_1Mat
+    second: {fileID: 2100000, guid: d82b38e11ff7a4f9cb05ab6ae3b4eb47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_horz_strings_Cap_22Mat
+    second: {fileID: 2100000, guid: df0b6c114f9a64c0cbbf228c9b1e7f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tennis_Racket_wrap_CubeMat
+    second: {fileID: 2100000, guid: b9f7b3592bfaa4e0e86a2d3e21eb3dba, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

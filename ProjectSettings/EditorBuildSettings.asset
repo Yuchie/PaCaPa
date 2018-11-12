@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes 1/makiwara.unity
+    guid: 9c331c6601d54194bb47be9d984951ac
+  - enabled: 1
+    path: Assets/Scenes 1/moguratataki.unity
+    guid: 806ba6d6f52017845a7b84bf9589e934
+  m_configObjects: {}
