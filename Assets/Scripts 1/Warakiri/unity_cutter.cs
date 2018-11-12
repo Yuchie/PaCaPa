@@ -17,10 +17,11 @@ public class unity_cutter : MonoBehaviour {
     public KatanaLocate katanaLocate;
     public WaraParticle waraParticle;
     public Transform pivot;
+    public GameObject CuttingSound;
     // Use this for initialization
     void Start()
     {
-
+        StartCoroutine(GenerateCuttingSound());
     }
 
     // Update is called once per frame
@@ -29,6 +30,21 @@ public class unity_cutter : MonoBehaviour {
         katana_Detectdirection.isFollowReal = KatanaCheck();
         katanaLocate.isFollowReal = KatanaCheck();
         SetParticle();
+        
+    }
+
+    IEnumerator GenerateCuttingSound()
+    {
+        if(!isBack && isCutting)
+        {
+            Instantiate(CuttingSound);
+            yield return new WaitForSeconds(0.12f);
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.01f);
+        }
+        StartCoroutine(GenerateCuttingSound());
     }
     private void OnTriggerEnter(Collider other)
     {

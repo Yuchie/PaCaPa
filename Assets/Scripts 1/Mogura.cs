@@ -14,6 +14,8 @@ public class Mogura : MonoBehaviour {
     public CalcGodStickMeshDeform calcGodStickMeshDeform;
     public GameObject[] normalEyes;
     public GameObject[] yarareEyes;
+    [SerializeField]
+    private AudioClip soundOnHit;
 	// Use this for initialization
 	void Start () {
         capsuleCollider = GetComponent<Collider>();
@@ -36,10 +38,12 @@ public class Mogura : MonoBehaviour {
             {
                 calcGodStickMeshDeform.stiffness = 0.2f;
                 calcGodStickMeshDeform.deform = 6;
+                GetComponent<AudioSource>().PlayOneShot(soundOnHit);
             } else
             {
                 calcGodStickMeshDeform.stiffness = 1;
                 calcGodStickMeshDeform.deform = 0;
+                GetComponent<AudioSource>().PlayOneShot(soundOnHit);
             }
 
             SetEyes(true);
