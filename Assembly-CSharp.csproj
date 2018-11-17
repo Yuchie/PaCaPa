@@ -262,6 +262,7 @@
     <Compile Include="Assets\Scripts 1\ScoreManager.cs" />
     <Compile Include="Assets\Scripts 1\Tankobu.cs" />
     <Compile Include="Assets\Scripts 1\timer.cs" />
+    <Compile Include="Assets\Scripts 1\Warakiri\BackHitSoundGenerate.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Cut.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Cut_Spin.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Katana_Detectdirection.cs" />

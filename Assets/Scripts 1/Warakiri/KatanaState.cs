@@ -8,8 +8,9 @@ public class KatanaState : MonoBehaviour {
     private Vector3 vel;
     private Vector3 vel_temp;
     public unity_cutter cutter;
-	// Use this for initialization
-	void Start () {
+    public GameObject CuttingSound;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -32,6 +33,7 @@ public class KatanaState : MonoBehaviour {
             else
             {
                 cutter.isBack = true;
+                Instantiate(CuttingSound);
             }
             cutter.isCutting = true;
         }
