@@ -8,21 +8,30 @@ public class timer : MonoBehaviour {
     public float maxTime;
     public Text text;
     public GameObject result;
+    public AudioSource audioWhistle;
+    private bool isFinish;
 	// Use this for initialization
 	void Start () {
         currentTime = maxTime;
-	}
+        //audioWhistle.Play();
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
         currentTime -= Time.deltaTime;
         text.text = currentTime.ToString("F0");
-        if(currentTime < 0)
-        {
+        if(currentTime < 0) {
+            if (!isFinish)
+            {
+                audioWhistle.Play();
+                isFinish = true;
+            }
+
             //ゲーム終了処理
             currentTime = 0;
             result.SetActive(true);
         }
+            
+    }
         
-	}
 }
