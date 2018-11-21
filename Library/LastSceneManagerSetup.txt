@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes 1/moguratataki.unity
+- path: Assets/Scenes 1/makiwara.unity
   isLoaded: 1
   isActive: 1
