@@ -17,6 +17,7 @@ public class BossMogura : MonoBehaviour {
     public GameObject result;
     public CalcGodStickMeshDeform calcGodStickMeshDeform;
     private int tankobuNum;
+    public AudioSource soundOnHit;
 	// Use this for initialization
 	void Start () {
         HP = maxHP;
@@ -36,6 +37,7 @@ public class BossMogura : MonoBehaviour {
         if(other.gameObject.tag == "hammer")
         {
             HP--;
+            soundOnHit.Play();
             if(HP > 0)
             {
                 //一瞬無敵になる・絆創膏を貼る

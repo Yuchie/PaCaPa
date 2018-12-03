@@ -9,7 +9,7 @@ public class Katana_Detectdirection : MonoBehaviour {
     public Katana_Detectdirection otherSide;
     public CalcGodStickMeshDeform calcGodStickMeshDeform;
     public bool isFollowReal;
-
+    public GameObject CuttingSound;
     // Use this for initialization
     void Start () {
 		
@@ -29,6 +29,10 @@ public class Katana_Detectdirection : MonoBehaviour {
             {
                 Debug.Log("hit");
                 cutter.isBack = isBack;
+                if (isBack)
+                {
+                    Instantiate(CuttingSound);
+                }
                 StartCoroutine("Rest");
             }
             cutter.isCutting = true;

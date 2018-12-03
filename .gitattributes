@@ -3,3 +3,5 @@ alpha.unitypackage filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 Assets/ filter=lfs diff=lfs merge=lfs -text
+*.ide-wal filter=lfs diff=lfs merge=lfs -text
+*.ide filter=lfs diff=lfs merge=lfs -text

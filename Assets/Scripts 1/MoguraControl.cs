@@ -18,6 +18,7 @@ public class MoguraControl : MonoBehaviour {
     private float currentTime;
     private int[] moguraStatus;
     private bool didSoftMoguraAppear;
+    public timer timer;
 	// Use this for initialization
 	void Start () {
         currentTime = spawnSpan;
@@ -52,6 +53,7 @@ public class MoguraControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        if(timer.isBegin)
         currentTime -= Time.deltaTime;
         if(currentTime < 0)
         {

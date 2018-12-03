@@ -5,6 +5,7 @@ using UnityEngine;
 public class unity_cutter : MonoBehaviour {
     public bool isBack;
     public bool isCutting;
+    private bool didBladeEnter;
     public GameObject Cut;
 
     [SerializeField]
@@ -17,10 +18,12 @@ public class unity_cutter : MonoBehaviour {
     public KatanaLocate katanaLocate;
     public WaraParticle waraParticle;
     public Transform pivot;
+    public GameObject CuttingSound;
+    public GameObject swordSound;
     // Use this for initialization
     void Start()
     {
-
+        StartCoroutine(GenerateCuttingSound());
     }
 
     // Update is called once per frame
@@ -29,6 +32,21 @@ public class unity_cutter : MonoBehaviour {
         katana_Detectdirection.isFollowReal = KatanaCheck();
         katanaLocate.isFollowReal = KatanaCheck();
         SetParticle();
+        
+    }
+
+    IEnumerator GenerateCuttingSound()
+    {
+        if(!isBack&&isCutting)
+        {
+            Instantiate(CuttingSound);
+            yield return new WaitForSeconds(0.12f);
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.01f);
+        }
+        StartCoroutine(GenerateCuttingSound());
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -36,6 +54,10 @@ public class unity_cutter : MonoBehaviour {
         {
             startPosition = other.ClosestPointOnBounds(this.transform.position);
             startQuaternion = this.transform.rotation;
+            if (isBack)
+            {
+                Instantiate(CuttingSound);
+            }
         }
 
     }
@@ -51,6 +73,7 @@ public class unity_cutter : MonoBehaviour {
                 Vector3 vec2 = startPosition - pivot.position;
                 Vector3 normal = Vector3.Cross(vec1, vec2);
                 Instantiate(Cut, endPosition, Quaternion.LookRotation(normal));
+                Instantiate(swordSound);
                 /*float theta = Mathf.Atan2(startPosition.y - endPosition.y, startPosition.x - endPosition.x);
                 Instantiate(Cut, endPosition, endQuaternion * Quaternion.Euler(0,90,90));*/
             }

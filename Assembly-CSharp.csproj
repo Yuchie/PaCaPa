@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{25BC10F3-3145-B372-CD49-37E19F78F6CC}</ProjectGuid>
+    <ProjectGuid>{6CA51F7B-AE3B-356F-5965-26AFB327891E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -262,11 +262,13 @@
     <Compile Include="Assets\Scripts 1\ScoreManager.cs" />
     <Compile Include="Assets\Scripts 1\Tankobu.cs" />
     <Compile Include="Assets\Scripts 1\timer.cs" />
+    <Compile Include="Assets\Scripts 1\Warakiri\BackHitSoundGenerate.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Cut.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Cut_Spin.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Katana_Detectdirection.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\KatanaLocate.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\KatanaState.cs" />
+    <Compile Include="Assets\Scripts 1\Warakiri\Kill_Self.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\MakiwaraControl.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\QuaternionUtil.cs" />
     <Compile Include="Assets\Scripts 1\Warakiri\Scale_Random.cs" />
@@ -473,16 +475,16 @@
     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
     <None Include="Assets\Oculus\VR\Plugins\placeholder.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/ryu19/Desktop/NewestVer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/ryu19/Documents/PaCaPa/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/ryu19/Desktop/NewestVer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ryu19/Documents/PaCaPa/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/ryu19/Desktop/NewestVer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/ryu19/Documents/PaCaPa/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/ryu19/Desktop/NewestVer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ryu19/Documents/PaCaPa/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -670,6 +672,9 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.1f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.1f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -680,10 +685,10 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.1f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="MathNet.Numerics">
-      <HintPath>C:/Users/ryu19/Desktop/NewestVer/Assets/MathNet.Numerics.dll</HintPath>
+      <HintPath>C:/Users/ryu19/Documents/PaCaPa/Assets/MathNet.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>C:/Users/ryu19/Desktop/NewestVer/Assets/System.Threading.dll</HintPath>
+      <HintPath>C:/Users/ryu19/Documents/PaCaPa/Assets/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/ryu19/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -721,7 +726,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{809DEE42-275A-7C3E-B276-E84148D84AD1}</Project>
+      <Project>{87ECDE84-188D-5DFF-15E5-573A68146670}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
