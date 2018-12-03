@@ -9,7 +9,7 @@ public class Cut : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        
 
     }
 
@@ -29,7 +29,8 @@ public class Cut : MonoBehaviour {
                 pieces = CompareHeight(pieces[0], pieces[1]);
                 Destroy(pieces[0].GetComponent<BoxCollider>());
                 pieces[0].tag = "Untagged";
-                pieces[1].tag = "Untagged";
+                pieces[0].layer = 2;
+                pieces[1].tag = "target";
                 Destroy(pieces[1].GetComponent<BoxCollider>());
                 Destroy(pieces[0].GetComponent<MeshCollider>());
                 Destroy(pieces[1].GetComponent<MeshCollider>());
@@ -46,7 +47,9 @@ public class Cut : MonoBehaviour {
                 pieces[0].GetComponent<Rigidbody>().isKinematic = false;
                 pieces[1].GetComponent<Rigidbody>().isKinematic = false;
                 pieces[1].AddComponent<Call_Next_Makiwara>();
-                Destroy(pieces[1], 2.5f);
+                pieces[0].GetComponent<Transform>().position += new Vector3(0, 0.05f, 0);
+                pieces[1].GetComponent<Transform>().position += new Vector3(0, 0.025f, 0);
+                Destroy(pieces[1], 5f);
                 Destroy(this.gameObject);
                 }
 
@@ -56,12 +59,19 @@ public class Cut : MonoBehaviour {
     }
     GameObject[] CompareHeight (GameObject g1,GameObject g2)
     {
-        if (g1.GetComponent<Transform>().position.y > g2.GetComponent<Transform>().position.y)
-            return new GameObject[] {g1,g2};
-        return new GameObject[] { g2, g1 };
+        if (g1.GetComponent<Renderer>().bounds.center.y > g2.GetComponent<Renderer>().bounds.center.y)
+        {
+            return new GameObject[] { g1, g2 };
+        }
+        else
+        {
+            return new GameObject[] { g2, g1 };
+        }
+            
+        
     }
 
-    void OnDrawGizmosSelected()
+    /*void OnDrawGizmosSelected()
     {
 
         Gizmos.color = Color.green;
@@ -73,5 +83,5 @@ public class Cut : MonoBehaviour {
         Gizmos.DrawLine(transform.position, transform.position + transform.up * 0.5f);
         Gizmos.DrawLine(transform.position, transform.position + -transform.up * 0.5f);
 
-    }
+    }*/
 }
