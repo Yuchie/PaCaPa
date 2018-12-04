@@ -16,6 +16,7 @@ public class Call_Next_Makiwara : MonoBehaviour {
 
     private void OnDestroy()
     {
+        if(!MakiwaraControl.isMoving)
         MakiwaraControl.UpdateMakiwara();
     }
 }

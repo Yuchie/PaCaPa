@@ -289,7 +289,7 @@ public class CalcGodStickMeshDeform : MonoBehaviour
 
             if (Physics.BoxCast(god.transform.position - 4 * (heading / distance) * god.transform.lossyScale.x, new Vector3(0, 0, 1), heading, out hitRayTarget, god.transform.rotation))
             {
-                if (hitRayTarget.distance < distance * (1 + 4 * god.transform.lossyScale.x))
+                if (hitRayTarget.distance < distance * (1 + 4 * god.transform.lossyScale.x) && hitRayTarget.collider.gameObject.layer != 2)
                 {
                     attachPoint = hitRayTarget.point + hitRayTarget.normal * god.transform.lossyScale.x / 2;
                     target = hitRayTarget.collider.gameObject;
